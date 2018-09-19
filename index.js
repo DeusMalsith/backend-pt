@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-// Hell yeah
-=======
 // load environmental variables
 require('dotenv').config();
 // load web framework
@@ -54,4 +51,3 @@ app.use('/assignedExcercises', require('./controllers/AssignedExcercises'));
 app.listen(3000, function() {
   console.log('Server listening');
 });
->>>>>>> upstream/master
